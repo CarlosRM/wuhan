@@ -1,0 +1,31 @@
+main {
+  text-align: center;
+  flex: 0 0 70%;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-sizing: border-box;
+}
+
+main > h1 > span {
+  color: teal;
+}
+
+#buttonHolder {
+  display: flex;
+  justify-content: space-between;
+}
+
+#buttonHolder button {
+  flex: 0 0 32%;
+  padding: 20px;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 2px;
+  background-color: teal;
+  color: white;
+}
+
+#buttonHolder button:hover {
+  cursor: pointer;
+  background-color: rgba(0,128,128,0.5);
+}
